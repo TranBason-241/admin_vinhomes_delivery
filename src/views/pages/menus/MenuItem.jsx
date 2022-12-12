@@ -61,7 +61,7 @@ export const MenuItem = ({ data, index }) => {
           )}
         </td>
 
-        <td className="text-right">
+        <td className="text-center">
           <i
             className="fa-solid fa-pen-to-square mr-3 cusor"
             style={{ fontSize: 22 }}

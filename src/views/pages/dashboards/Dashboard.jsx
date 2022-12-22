@@ -222,16 +222,16 @@ function Dashboard() {
 
                                             <div style={{ display: "flex", justifyContent: "space-between", padding: "0px 10px 20px 10px" }}>
                                                 <span style={{ color: "#fff", fontSize: 16, fontWeight: 600 }}>Tổng thu hộ tài khoản (1)</span>
-                                                <span style={{ color: "#fff", fontSize: 20, fontWeight: 600 }}>{totalPaymentVNPay.toLocaleString()}</span>
+                                                <span style={{ color: "#fff", fontSize: 20, fontWeight: 600 }}>{totalPaymentVNPay?.toLocaleString()}</span>
                                             </div>
                                             <div style={{ display: "flex", justifyContent: "space-between", padding: "0px 10px 20px 10px" }}>
                                                 <span style={{ color: "#fff", fontSize: 16, fontWeight: 600 }}>Tổng thu hộ tiền mặt (2)</span>
-                                                <span style={{ color: "#fff", fontSize: 20, fontWeight: 600 }}>{totalPaymentCash.toLocaleString()}</span>
+                                                <span style={{ color: "#fff", fontSize: 20, fontWeight: 600 }}>{totalPaymentCash?.toLocaleString()}</span>
                                             </div>
 
                                             <div style={{ display: "flex", justifyContent: "space-between", padding: "0px 10px 20px 10px" }}>
                                                 <span style={{ color: "#fff", fontSize: 16, fontWeight: 600 }}>Phí ship (3)</span>
-                                                <span style={{ color: "#fff", fontSize: 20, fontWeight: 600 }}>{totalShipFree.toLocaleString()}</span>
+                                                <span style={{ color: "#fff", fontSize: 20, fontWeight: 600 }}>{totalShipFree?.toLocaleString()}</span>
                                             </div>
                                             <div
                                                 style={{
@@ -244,11 +244,11 @@ function Dashboard() {
                                                 }}
                                             >
                                                 <span style={{ color: "#fff", fontSize: 16, fontWeight: 600 }}>Tổng doanh thu (1) + (2) + (3)</span>
-                                                <span style={{ color: "#fff", fontSize: 22, fontWeight: 600 }}>{totalRevenueOrder.toLocaleString()}</span>
+                                                <span style={{ color: "#fff", fontSize: 22, fontWeight: 600 }}>{totalRevenueOrder?.toLocaleString()}</span>
                                             </div>
                                             <div style={{ display: "flex", justifyContent: "space-between", padding: "20px 10px 20px 10px" }}>
                                                 <span style={{ color: "#fff", fontSize: 16, fontWeight: 600 }}>Tổng thu hộ</span>
-                                                <span style={{ color: "#fff", fontSize: 20, fontWeight: 600 }}>{totalOrder.toLocaleString()}</span>
+                                                <span style={{ color: "#fff", fontSize: 20, fontWeight: 600 }}>{totalOrder?.toLocaleString()}</span>
                                             </div>
                                             <div
                                                 style={{
@@ -261,7 +261,7 @@ function Dashboard() {
                                                 }}
                                             >
                                                 <span style={{ color: "#fff", fontSize: 16, fontWeight: 600 }}>Tổng lợi nhuận</span>
-                                                <span style={{ color: "#fff", fontSize: 22, fontWeight: 600 }}>{totalProfitOrder.toLocaleString()}</span>
+                                                <span style={{ color: "#fff", fontSize: 22, fontWeight: 600 }}>{totalProfitOrder?.toLocaleString()}</span>
                                             </div>
                                         </div>
                                     </div>

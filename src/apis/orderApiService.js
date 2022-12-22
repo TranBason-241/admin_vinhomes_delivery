@@ -33,14 +33,18 @@ export const getListOrder = (
 };
 //https://deliveryvhgp-webapi.azurewebsites.net/api/v1/order-management/orders/report?DateFilter=Nov%2010%202022
 export const getOrderReport = (dateFilter) => {
+  console.log("TESTT line 36" + dateFilter);
   let url = "";
   if (dateFilter !== "") {
     url = `?DateFilter=${dateFilter}`;
   }
-  return axios.get(`${BASE_URL_CORAL_TEAM_VERSION}${ORDER}/orders/report${url}`, {
-    Accept: "application/json",
-    "Content-Type": "application/json",
-  });
+  return axios.get(
+    `${BASE_URL_CORAL_TEAM_VERSION}${ORDER}/orders/report${url}`,
+    {
+      Accept: "application/json",
+      "Content-Type": "application/json",
+    }
+  );
 };
 
 //https://deliveryvhgp-webapi.azurewebsites.net/api/v1/order-management/orders/search-status?statusName=ShopAccept&pageIndex=1&pageSize=20
@@ -78,8 +82,11 @@ export const getOrderReportPrice = (dateFilter) => {
   if (dateFilter !== "") {
     url = `?DateFilter=${dateFilter}`;
   }
-  return axios.get(`${BASE_URL_CORAL_TEAM_VERSION}${ORDER}/orders/report-price${url}`, {
-    Accept: "application/json",
-    "Content-Type": "application/json",
-  });
+  return axios.get(
+    `${BASE_URL_CORAL_TEAM_VERSION}${ORDER}/orders/report-price${url}`,
+    {
+      Accept: "application/json",
+      "Content-Type": "application/json",
+    }
+  );
 };

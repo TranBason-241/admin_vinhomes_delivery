@@ -93,10 +93,10 @@ function AdminNavbar({ theme, sidenavOpen, toggleSidenav }) {
                                 <DropdownToggle className="nav-link pr-0" color="" tag="a">
                                     <Media className="align-items-center">
                                         <span className="avatar avatar-sm rounded-circle">
-                                            <img alt="..." src={"/images/logo.jpg"} />
+                                            <img alt="..." src={"/images/logo_2.png"} />
                                         </span>
                                         <Media className="ml-2 d-none d-lg-block">
-                                            <span className="mb-0 font-weight-bold nav-bar-text">CongDongChungCu-Admin</span>
+                                            <span className="mb-0 font-weight-bold nav-bar-text">VHGP.NET-Admin</span>
                                         </Media>
                                     </Media>
                                 </DropdownToggle>

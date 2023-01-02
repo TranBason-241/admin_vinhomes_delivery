@@ -78,7 +78,7 @@ function Admin() {
                 sidenavOpen={sidenavOpen}
                 logo={{
                     innerLink: "/",
-                    imgSrc: "/images/logo.jpg",
+                    imgSrc: "/images/logo_2.png",
                     imgAlt: "...",
                 }}
             />
